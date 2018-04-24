@@ -1,10 +1,18 @@
-
-# USMxREKA_Space
+# REKAxUSM Hab Launch Code
 
 This repo contains the source code for the USM Hab Launch.
-The repo contains
+
+This repo contains:
 
 - example for MQTT protocol
+
+```sh
+$ npm install -g create-react-native-app
+$ create-react-native-app my-app
+$ cd my-app/
+$ npm start
+```
+
 - example for GPS
 - example for Barometer
 - example for LED Light Up using Like Facebook Page button
