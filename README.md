@@ -4,7 +4,7 @@ This repo contains the source code for the USM Hab Launch.
 
 This repo contains:
 
-- example for MQTT protocol
+## Example for MQTT protocol
 
 (Arduino)
 ```sh
@@ -12,7 +12,7 @@ $ #include <RIGMQTT.h> //MQTT Library to connect to MQTT Publish Subscribe Proto
 $ #include <ArduinoJson.h> //Uses JSON Object format for transfering data packet over MQTT
 ```
 
-- example for GPS
+## Example for GPS
 
 (Arduino)
 ```sh
@@ -116,7 +116,39 @@ void printFloat(double number, int digits)
 }
 
 ```
-- example for Barometer
+## Example for Barometer
+```sh
+#include <SFE_BMP180.h> //Including BMP180 library
+
+SFE_BMP180 pressure; //Creating an object
+
+void setup()  
+{
+  Serial.begin(9600); //Starting serial communication
+
+  Serial.println("Program started");
+
+  if (pressure.begin()) //If initialization was successful, continue
+    Serial.println("BMP180 success");
+  //else //Else, stop code forever
+  //{
+    //Serial.println("BMP180 init fail");
+    //while (1);
+  //}
+  // Oploen serial communications and wait for port to open:
+ // Serial.begin(9600);
+  // set the data rate for the SoftwareSerial port
+  mySerial.begin(9600);
+  delay(1000);
+  Serial.println("AZIZIELSAT V1");
+  Serial.print("SAT GPS TESTING"); Serial.println(TinyGPS::library_version());
+  Serial.println("by AZIZ & EL");
+  Serial.println();
+  Serial.print("Sizeof(gpsobject) = "); 
+  Serial.println(sizeof(TinyGPS));
+  Serial.println(); 
+}
+```
 - example for LED Light Up using Like Facebook Page button
 
 - Compilation of all code in a single .ino file
