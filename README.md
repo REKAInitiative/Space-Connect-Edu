@@ -166,7 +166,11 @@ void setup()
 
 # Library Issue
 
-Remember to copy the ArduinoJSON Library and RIGMQTT Library into the Arduino default library.
+Remember to copy to YourComputer/Documents/Arduino/Libraries: 
+- ArduinoJSON 
+- RIGMQTT
+- TinGPS
+- SFE_BMP180
 
 # Beebotte MQTT Free Website
 For ease of use we will use Beebotte fast deployment tool for MQTT Server. The Beebotte file has default Google Maps Location tagger for ease of use 
