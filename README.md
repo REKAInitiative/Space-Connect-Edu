@@ -1,8 +1,14 @@
 # REKAxUSM Hab Launch Code
 
-![alt text](https://github.com/REKAInitiative/Space-Connect-Edu/blob/master/asset/image/pic1.png)
+##USM
 ![alt text](https://github.com/REKAInitiative/Space-Connect-Edu/blob/master/asset/image/usm.jpeg)
+
+##REKA
 ![alt text](https://github.com/REKAInitiative/Space-Connect-Edu/blob/master/asset/image/reka.png)
+
+
+![alt text](https://github.com/REKAInitiative/Space-Connect-Edu/blob/master/asset/image/pic1.png)
+
 
 This repo contains the source code for the USM Hab Launch.
 
