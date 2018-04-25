@@ -1,9 +1,9 @@
 # REKAxUSM Hab Launch Code
 
-##USM
+## USM
 ![alt text](https://github.com/REKAInitiative/Space-Connect-Edu/blob/master/asset/image/usm.jpeg)
 
-##REKA
+## REKA
 ![alt text](https://github.com/REKAInitiative/Space-Connect-Edu/blob/master/asset/image/reka.png)
 
 
