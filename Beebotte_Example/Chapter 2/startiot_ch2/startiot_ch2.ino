@@ -25,7 +25,7 @@
 
 // Your Host MQTT settings
 const char* Host = "mqtt.beebotte.com";// your host broker URL
-const char* Username = "token:token_7zZxK1sZM9Zb2vaG";// your username
+const char* Username = "token:token_uPsAz8n1nOKp1WMB";// your username
 const char* Password = "";// your password
 
 
